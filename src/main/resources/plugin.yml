@@ -1,0 +1,13 @@
+main: com.mattispower.strip.Main
+name: Strip
+version: 1.0-beta
+api-version: 1.20
+description: Allowes users to strip wood by using the /strip command
+author: mattispower
+prefix: Strip
+commands:
+  strip:
+    description: Use /strip while holding a strippable material to strip it - by MattisPower
+    usage: Use /strip while holding a strippable material to strip it.
+    permission: strip.use
+    permission-message: You do not have the required permission <permission> to do this.
